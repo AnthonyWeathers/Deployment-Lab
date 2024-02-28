@@ -10,15 +10,23 @@
     <header>
         <h1>Honkai Impact 3rd: Graduation Trip</h1> <br>
     </header>
+    <section>
+        <button id="showAnimation">Show Video</button>
+    
+        <br>
+    
+        <button id="showSong">Show Song</button>
+    </section>
 
-    <button id="showAnimation">Show Video</button>
-    <div id="video" class="hidden">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VeWCBissZy8?si=4wf5SBWCeXrp9DxS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-
-    <br>
-
-    <button>Song</button>
+    <section>
+        <div id="video" class="hiddenVideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VeWCBissZy8?si=4wf5SBWCeXrp9DxS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    
+        <div id="song" class="hiddenSong">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9iFDPYubUbE?si=21yqao68eYWecc8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
 
     <script src="main.js"></script>
 </body>

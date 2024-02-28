@@ -1,3 +1,23 @@
-.hidden {
+.hiddenVideo {
     display: none;
+}
+
+.hiddenSong {
+    display: none;
+}
+
+body {
+    background-image: url('https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/6ea405ce7204cad9b78e5d38f1275121_2392672634595812728.jpg');
+    background-size: 1340px 630px;
+    background-repeat: no-repeat;
+    font-size: large;
+
+    margin: 10px;
+
+    color: lightgray;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
 }
